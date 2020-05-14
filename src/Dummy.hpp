@@ -1,10 +1,14 @@
-#ifndef _DUMMYPROJECT_DUMMY_HPP_
-#define _DUMMYPROJECT_DUMMY_HPP_
+#ifndef _DEPS_TARGET_USE_PKGCONFIG_DUMMY_HPP_
+#define _DEPS_TARGET_USE_PKGCONFIG_DUMMY_HPP_
+
+#include <deps_target/Dummy.hpp>
 
 namespace deps_target_use_pkgconfig
 {
     class DummyClass
     {
+        deps_target::DummyClass mDummy;
+
         public: 
             /**
              * Print a welcome to stdout
